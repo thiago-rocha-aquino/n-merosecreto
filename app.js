@@ -1,4 +1,5 @@
 alert('boas vinda ao jogo do número secreto');
+// defiir o valor maximo do numerosecreto
 let numeromaximo = 100;
 //gera número aleatório de 1 a 100
 let numerosecreto = parseInt(Math.random() * numeromaximo + 1);
