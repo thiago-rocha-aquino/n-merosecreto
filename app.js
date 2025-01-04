@@ -21,7 +21,7 @@ while (chute != numerosecreto){
     }
     tentativas++;
    }
-//                                           se          senão
+// para definir palava no singular ou plural
 let palavratentativas = tentativas > 1 ? 'tetativas': 'tentativa'
 alert(`você acertou o número secreto ${chute} com ${tentativas} ${palavratentativas}`)   
  
