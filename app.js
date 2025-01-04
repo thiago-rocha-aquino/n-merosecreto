@@ -1,4 +1,6 @@
 alert('boas vinda ao jogo do número secreto');
+//  gerar o número aleatório de 1 a 100
+
 let numerosecreto = parseInt(Math.random() * 100 + 1);
 let chute;
 let tentativas = 1;
